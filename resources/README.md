@@ -14,6 +14,10 @@ Choose one main option for each slot.
 | Review system | Vocab and phrase retention |  |
 | Accountability | Tutor, class, group, or check-in |  |
 
+## Local References
+
+- [Kana cheat sheet](resources/kana-cheat-sheet.md): hiragana and katakana encountered so far, with readings and source words.
+
 ## Selection Rules
 
 - Prefer resources you will actually use while recovering.
@@ -27,4 +31,3 @@ Choose one main option for each slot.
 - Would an online tutor help with confusion or motivation?
 - Is review too heavy, too light, or just right?
 - Is Animal Crossing energizing yet, or still too frustrating?
-

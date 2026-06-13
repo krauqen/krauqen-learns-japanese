@@ -10,6 +10,7 @@ Do not capture everything. Prefer phrases that are repeated, useful, funny, conf
 | --- | --- | --- | --- | --- | --- |
 | セーブ | seebu | save | UI | yes | yes |
 | アイテム | aitemu | item | UI/inventory | yes | yes |
+| カメラ | kamera | camera | UI/tool | yes | yes |
 
 ## Villager Dialogue
 
@@ -25,10 +26,10 @@ Do not capture everything. Prefer phrases that are repeated, useful, funny, conf
 | かう | kau | buy | shop/action |
 | うる | uru | sell | shop/action |
 | つくる | tsukuru | make/craft | crafting/action |
+| しまう | shimau | put away/store/close | inventory/action |
 
 ## Grammar Sightings
 
 | Pattern | Example | Rough meaning | Source |
 | --- | --- | --- | --- |
 |  |  |  |  |
-

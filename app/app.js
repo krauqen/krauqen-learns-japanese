@@ -3,12 +3,14 @@ const docs = [
   { title: "Project README", path: "README.md", group: "Today", icon: "RD" },
   { title: "8-Week Recovery Plan", path: "plans/8-week-recovery-plan.md", group: "Plans", icon: "8W" },
   { title: "6-12 Month Roadmap", path: "roadmap/6-12-month-roadmap.md", group: "Plans", icon: "12" },
+  { title: "Today: 2026-06-13", path: "logs/daily/2026-06-13.md", group: "Logs", icon: "13" },
   { title: "Daily Log Template", path: "logs/daily-log-template.md", group: "Logs", icon: "DL" },
   { title: "Weekly Review Template", path: "logs/weekly-review-template.md", group: "Logs", icon: "WR" },
   { title: "Animal Crossing Phrase Bank", path: "vocab/animal-crossing-phrase-bank.md", group: "Vocab", icon: "JP" },
   { title: "Month 1 Checkpoint", path: "checkpoints/month-1.md", group: "Checkpoints", icon: "M1" },
   { title: "Month 2 Checkpoint", path: "checkpoints/month-2.md", group: "Checkpoints", icon: "M2" },
   { title: "Resources", path: "resources/README.md", group: "Resources", icon: "RS" },
+  { title: "Kana Cheat Sheet", path: "resources/kana-cheat-sheet.md", group: "Resources", icon: "KA" },
   { title: "Daily Japanese Coach Skill", path: ".codex/skills/daily-japanese-coach/SKILL.md", group: "Resources", icon: "AI" },
 ];
 
