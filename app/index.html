@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Krauqen Learns Japanese</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Project navigation">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">日</div>
+          <div>
+            <h1>Krauqen Learns Japanese</h1>
+            <p>ACNH reading fluency</p>
+          </div>
+        </div>
+
+        <label class="search-label" for="searchInput">Search</label>
+        <input id="searchInput" class="search-input" type="search" placeholder="phrases, checkpoints, week 5">
+
+        <nav id="docNav" class="doc-nav" aria-label="Markdown files"></nav>
+      </aside>
+
+      <main class="workspace">
+        <section class="topbar" aria-label="Current focus">
+          <div>
+            <p class="eyebrow">Current focus</p>
+            <h2 id="currentWeekTitle">Week 1: Read The Doorways</h2>
+          </div>
+          <div class="week-control">
+            <label for="weekSelect">Week</label>
+            <select id="weekSelect"></select>
+          </div>
+        </section>
+
+        <section class="dashboard" aria-label="Learning dashboard">
+          <article class="focus-panel">
+            <div class="panel-header">
+              <span class="panel-kicker">Real-world test</span>
+              <span id="weekPhase" class="status-pill">Foundation</span>
+            </div>
+            <p id="weekTest" class="week-test"></p>
+            <div class="evidence-list" id="weekEvidence"></div>
+          </article>
+
+          <article class="routine-panel">
+            <div class="panel-header">
+              <span class="panel-kicker">Today</span>
+              <span class="status-pill alt">Recovery-aware</span>
+            </div>
+            <div class="routine-grid">
+              <button class="routine-option" data-routine="minimum" type="button">
+                <span>Minimum</span>
+                <strong>5-10 min</strong>
+              </button>
+              <button class="routine-option active" data-routine="normal" type="button">
+                <span>Normal</span>
+                <strong>50-70 min</strong>
+              </button>
+              <button class="routine-option" data-routine="stretch" type="button">
+                <span>Stretch</span>
+                <strong>+15-30 min</strong>
+              </button>
+            </div>
+            <p id="routineDetail" class="routine-detail"></p>
+          </article>
+        </section>
+
+        <section class="reader-shell" aria-label="Markdown reader">
+          <div class="reader-toolbar">
+            <div>
+              <p class="eyebrow">Viewing</p>
+              <h3 id="docTitle">Start Here</h3>
+            </div>
+            <a id="rawLink" class="raw-link" href="../START_HERE.md">Open raw Markdown</a>
+          </div>
+          <article id="markdownContent" class="markdown-body"></article>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+

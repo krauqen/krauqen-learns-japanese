@@ -1,0 +1,4 @@
+interface:
+  display_name: "Daily Japanese Coach"
+  short_description: "Plan and log one Japanese study day"
+  default_prompt: "Use $daily-japanese-coach to walk me through today's Japanese study session and update the repo afterward."
