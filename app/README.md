@@ -14,5 +14,8 @@ Then open:
 http://localhost:8000/app/
 ```
 
-Markdown remains the source of truth. The app is only a structured view over the files so the plan stays easy to edit, diff, and commit.
+For Vercel, deploy the repository root, not the `app/` directory. The root
+`vercel.json` redirects `/` to `/app/` so the public deployment opens the app
+instead of Vercel's 404 page.
 
+Markdown remains the source of truth. The app is only a structured view over the files so the plan stays easy to edit, diff, and commit.
