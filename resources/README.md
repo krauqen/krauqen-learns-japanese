@@ -8,15 +8,17 @@ Choose one main option for each slot.
 
 | Slot | Purpose | Chosen resource |
 | --- | --- | --- |
-| Core lessons | Grammar and structured progression |  |
-| Kana practice | Hiragana and katakana automaticity |  |
-| Dictionary | Fast lookup during gameplay |  |
-| Review system | Vocab and phrase retention |  |
-| Accountability | Tutor, class, group, or check-in |  |
+| Core lessons | Grammar and structured progression | Renshuu, with Duolingo as light extra practice |
+| Kana practice | Hiragana and katakana automaticity | Renshuu plus the local kana cheat sheet |
+| Dictionary | Fast lookup during gameplay | Not chosen yet |
+| Review system | Vocab and phrase retention | Local phrase bank, daily logs, and read-aloud set |
+| Accountability | Tutor, class, group, or check-in | Codex daily coaching check-ins for now |
 
 ## Local References
 
 - [Kana cheat sheet](resources/kana-cheat-sheet.md): hiragana and katakana encountered so far, with readings and source words.
+- [Animal Crossing phrase bank](vocab/animal-crossing-phrase-bank.md): high-value game words and phrases worth reviewing.
+- [Daily logs](logs/daily/): dated evidence of what was practiced and what should be carried forward.
 
 ## Selection Rules
 

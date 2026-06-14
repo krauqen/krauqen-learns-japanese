@@ -1,6 +1,6 @@
 ---
 name: daily-japanese-coach
-description: Daily coaching workflow for this Japanese-learning repo. Use when the user wants Codex to walk them through one day of study, brainstorm how to use the time and energy available, choose a minimum/normal/stretch session, optionally guide the session in chat, and update the Markdown repo afterward with a dated log, vocab/phrase-bank changes, weekly review notes, or plan adjustments.
+description: Daily coaching workflow for this Japanese-learning repo. Use when the user wants Codex to walk them through one day of study, brainstorm how to use the time and energy available, choose a minimum/normal/stretch session, optionally guide the session in chat, and update the Markdown repo afterward with dated logs, phrase-bank changes, kana cheat sheet updates, resource index updates, weekly review notes, web app sync, or plan adjustments.
 ---
 
 # Daily Japanese Coach
@@ -17,6 +17,8 @@ Read these files before proposing the day:
 - `plans/8-week-recovery-plan.md`
 - the newest relevant files under `logs/`, if any
 - `vocab/animal-crossing-phrase-bank.md` when vocab or gameplay is involved
+- `resources/kana-cheat-sheet.md` when kana, read-aloud, or contrast drills are involved
+- `resources/README.md` when tools, references, or study resources change
 - the current checkpoint file when near the end of month 1 or 2
 
 If the current week is not obvious from logs or the user has not said it, infer conservatively from the plan and ask one short question only if necessary.
@@ -29,8 +31,9 @@ If the current week is not obvious from logs or the user has not said it, infer 
 4. Coach the session: if the user wants to work in chat, guide one step at a time. Keep prompts small enough for low-energy recovery days.
 5. Capture evidence: at the end, ask what was completed, what Japanese was encountered, and any new phrases worth keeping.
 6. Update files: create or edit Markdown logs and phrase-bank entries with `apply_patch`. Do not invent progress the user did not report.
-7. Sync the web app: if any Markdown file is created or should newly appear in the reader, update the `docs` list in `app/app.js` in the same turn.
-8. Close the loop: summarize what changed, the next minimum step, and any plan adjustment implied by today.
+7. Sync learning references: update the kana cheat sheet, resources index, checkpoint, or plan when the session creates new evidence that belongs there.
+8. Sync the web app: if any Markdown file is created or should newly appear in the reader, update the `docs` list in `app/app.js` in the same turn.
+9. Close the loop: summarize what changed, the next minimum step, and any plan adjustment implied by today.
 
 ## Daily Log Rules
 
@@ -47,6 +50,14 @@ Use `logs/daily-log-template.md` as the shape, but keep entries concise. A valid
 - tomorrow's minimum next step
 
 If the user completes a weekly review, create or update `logs/weekly/week-XX.md` using `logs/weekly-review-template.md`.
+
+## Resource Sync Rules
+
+Keep `resources/kana-cheat-sheet.md` aligned with actual practice. Add kana from new words, read-aloud drills, or explicit contrast drills; include the source word or drill and a short meaning or note. Do not add a full chart unless the user has actually practiced it.
+
+Keep `resources/README.md` aligned with the user's real tool stack. Update chosen resources when the user starts, stops, or relies on a tool such as Renshuu, Duolingo, a dictionary, review system, tutor, group, or Codex coaching. Keep this list small and current.
+
+When a phrase is game-relevant and worth review, update `vocab/animal-crossing-phrase-bank.md`; when it mainly teaches kana recognition, update the kana cheat sheet; when it changes how the user studies, update the resources index or plan. Some session evidence may belong in more than one place.
 
 ## Web App Sync Rules
 
