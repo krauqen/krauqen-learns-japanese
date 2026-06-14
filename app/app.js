@@ -1,9 +1,11 @@
 const docs = [
   { title: "Start Here", path: "START_HERE.md", group: "Today", icon: "GO" },
   { title: "Project README", path: "README.md", group: "Today", icon: "RD" },
+  { title: "App README", path: "app/README.md", group: "Today", icon: "AP" },
   { title: "8-Week Recovery Plan", path: "plans/8-week-recovery-plan.md", group: "Plans", icon: "8W" },
   { title: "6-12 Month Roadmap", path: "roadmap/6-12-month-roadmap.md", group: "Plans", icon: "12" },
-  { title: "Today: 2026-06-13", path: "logs/daily/2026-06-13.md", group: "Logs", icon: "13" },
+  { title: "Daily Log: 2026-06-13", path: "logs/daily/2026-06-13.md", group: "Logs", icon: "13" },
+  { title: "Today: 2026-06-14", path: "logs/daily/2026-06-14.md", group: "Logs", icon: "14" },
   { title: "Daily Log Template", path: "logs/daily-log-template.md", group: "Logs", icon: "DL" },
   { title: "Weekly Review Template", path: "logs/weekly-review-template.md", group: "Logs", icon: "WR" },
   { title: "Animal Crossing Phrase Bank", path: "vocab/animal-crossing-phrase-bank.md", group: "Vocab", icon: "JP" },

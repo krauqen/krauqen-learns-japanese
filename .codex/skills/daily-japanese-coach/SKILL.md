@@ -29,7 +29,8 @@ If the current week is not obvious from logs or the user has not said it, infer 
 4. Coach the session: if the user wants to work in chat, guide one step at a time. Keep prompts small enough for low-energy recovery days.
 5. Capture evidence: at the end, ask what was completed, what Japanese was encountered, and any new phrases worth keeping.
 6. Update files: create or edit Markdown logs and phrase-bank entries with `apply_patch`. Do not invent progress the user did not report.
-7. Close the loop: summarize what changed, the next minimum step, and any plan adjustment implied by today.
+7. Sync the web app: if any Markdown file is created or should newly appear in the reader, update the `docs` list in `app/app.js` in the same turn.
+8. Close the loop: summarize what changed, the next minimum step, and any plan adjustment implied by today.
 
 ## Daily Log Rules
 
@@ -46,6 +47,14 @@ Use `logs/daily-log-template.md` as the shape, but keep entries concise. A valid
 - tomorrow's minimum next step
 
 If the user completes a weekly review, create or update `logs/weekly/week-XX.md` using `logs/weekly-review-template.md`.
+
+## Web App Sync Rules
+
+The web app reads Markdown from the hard-coded `docs` array in `app/app.js`. After creating a dated daily log, weekly review, checkpoint, plan, resource, phrase-bank file, or other Markdown file, add or update its entry there so the reader exposes it.
+
+For dated daily logs, use the title `Today: YYYY-MM-DD` for the current date's log and rename the previous current-day entry to `Daily Log: YYYY-MM-DD`. Keep the log under the `Logs` group and use the day-of-month as the icon when it fits in two characters.
+
+Before finishing a session update, compare the repo's Markdown files against the `docs` paths and fix any missing entries. A quick shell check is acceptable; do not include `.git` files.
 
 ## Phrase Bank Rules
 
