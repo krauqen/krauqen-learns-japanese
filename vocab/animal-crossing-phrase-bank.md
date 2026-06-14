@@ -8,6 +8,7 @@ Do not capture everything. Prefer phrases that are repeated, useful, funny, conf
 
 | Japanese | Reading | Meaning | Situation | Repeated? | Review? |
 | --- | --- | --- | --- | --- | --- |
+| あつまれ | atsumare | gather / come together | title screen | yes | yes |
 | セーブ | seebu | save | UI | yes | yes |
 | アイテム | aitemu | item | UI/inventory | yes | yes |
 | カメラ | kamera | camera | UI/tool | yes | yes |
