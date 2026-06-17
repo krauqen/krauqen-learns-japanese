@@ -12,6 +12,7 @@ Do not capture everything. Prefer phrases that are repeated, useful, funny, conf
 | セーブ | seebu | save | UI | yes | yes |
 | アイテム | aitemu | item | UI/inventory | yes | yes |
 | カメラ | kamera | camera | UI/tool | yes | yes |
+| たぬき | tanuki | tanuki | Tom Nook / tanuki character | yes | yes |
 
 ## Villager Dialogue
 
@@ -33,4 +34,4 @@ Do not capture everything. Prefer phrases that are repeated, useful, funny, conf
 
 | Pattern | Example | Rough meaning | Source |
 | --- | --- | --- | --- |
-|  |  |  |  |
+| A は B です | これはさかなです | This is a fish. | 2026-06-16 sentence drill |
